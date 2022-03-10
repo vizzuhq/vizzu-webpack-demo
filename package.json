@@ -1,0 +1,28 @@
+{
+  "name": "vizzu-webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simzer/vizzu-webpack-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simzer/vizzu-webpack-demo/issues"
+  },
+  "homepage": "https://github.com/simzer/vizzu-webpack-demo#readme",
+  "dependencies": {
+    "vizzu": "^0.4.4"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
