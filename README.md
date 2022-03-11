@@ -10,14 +10,16 @@ needs a bit of tweaking.
 ## Usage
 
 If you merely want to try out this project, then clone the project and run the 
-following commands to build it:
+following commands to build and host it on localhost:
 
 ```shell
 npm install
 npm run build
+npx serve -s dist
 ```
 
 You will find the generated output in the `dist` folder.
+
 
 ## Adding Vizzu to a project which using Webpack
 
