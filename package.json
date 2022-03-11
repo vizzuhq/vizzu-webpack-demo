@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/simzer/vizzu-webpack-demo#readme",
   "dependencies": {
-    "vizzu": "^0.4.4"
+    "vizzu": "^0.4.5"
   },
   "devDependencies": {
     "file-loader": "^6.2.0",
