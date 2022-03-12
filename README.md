@@ -69,13 +69,10 @@ To solve this problem, we should show Vizzu, where can it find its Webassembly
 file by adding the following lines before the Vizzu constructor call:
 
 ```javascript
-import VizzuModule from './../node_modules/vizzu/dist/cvizzu.wasm';
+import VizzuModule from 'vizzu/dist/cvizzu.wasm';
 
 Vizzu.options({ wasmUrl: VizzuModule });
 ```
-
-> Note: check the relative path of cvizzu.wasm in the import statement.
-> you may need to adjust it based on you file's location.
 
 ### Setting Webpack rule for the WebAssemby module
 

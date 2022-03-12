@@ -1,5 +1,5 @@
 import Vizzu from 'vizzu';
-import VizzuModule from './../node_modules/vizzu/dist/cvizzu.wasm';
+import VizzuModule from 'vizzu/dist/cvizzu.wasm';
 
 let data = {
 	series: [
